@@ -1,0 +1,806 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+#mainContainer {
+  width: 1250px;
+  background-color: white;
+  height: 100%;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* ---------------PARA TODAS AS PÁGINAS---------------- */
+/* header */
+header {
+  top: 0;
+  padding: 2rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+header .logo {
+  height: 70px;
+  margin-left: -120px;
+  margin-top: 15px;
+}
+
+header .logo i {
+  color: var(--orange);
+}
+
+header a img {
+  height: 23px;
+  padding-left: 70px;
+}
+
+header nav {
+  margin-left: 400px;
+  margin-top: 0px;
+}
+
+header nav a {
+  font-size: 1.1rem;
+  margin: 0 1.5rem;
+  color: var(--black);
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: #3747ff;
+}
+
+.linkEntrar {
+  margin-left: 100px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+}
+
+.linkEntrar:hover {
+  padding: 14px;
+  border-radius: 15px;
+  background-color: orange;
+}
+
+.iconeHome {
+  height: 30px;
+  margin-left: -90px;
+}
+
+/* footer */
+footer {
+  margin-top: 150px;
+  padding: 40px 0;
+  background-color: #f4f4f4;
+  color: #4b4c4d;
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+  font-family: 'Poppins', sans-serif;
+  opacity: 1;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(38, 38, 38);
+  opacity: 0.5;
+}
+
+footer a:hover {
+  opacity: 1;
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+footer li {
+  padding: 0 10px;
+}
+
+footer .redesSociais {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+footer .redesSociais>a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.65;
+}
+
+footer .redesSociais>a:hover {
+  opacity: 5;
+}
+
+footer .redesSociais a img {
+  margin-top: 4px;
+  margin-left: 0.5px;
+  height: 32px;
+}
+
+.imgLocalizacao{
+  margin-left: 30%;
+  opacity: 0.4;
+  margin-top: 1px;
+}
+
+.localizacaoFooter {
+  float: left;
+  margin-left: 34%;
+  margin-top: -38px;
+  opacity: 0.4;
+}
+
+.localizacaoFooter:hover {
+  opacity: 0.6;
+}
+
+footer .direitosReservados {
+  margin-top: 1px;
+  text-align: center;
+  font-size: 13px;
+  color: rgb(207, 207, 207);
+  margin-bottom: 0;
+}
+
+/* fim de ----------------PARA TODAS AS PÁGINAS----------- */
+
+
+/* ------------------------PARA HOME----------------------- */
+.bola1 {
+  float: right;
+  border-radius: 300px;
+  height: 550px;
+  width: 550px;
+  margin-right: 30px;
+  background-color: #3747ff;
+}
+
+.bola1 img {
+  margin-top: 11%;
+  margin-left: 100px;
+  height: 350px;
+  cursor: pointer;
+}
+
+.bola1:hover {
+  transition: 0.5s background;
+  background-color: #90c6ff;
+  cursor: pointer;
+  color: black;
+}
+
+.bola1 .cadeiraAVenda:hover {
+  transition: 0.5s;
+  height: 370px;
+  margin-left: 90px;
+  margin-top: 10%;
+  cursor: pointer;
+}
+
+.bola1 a {
+  text-decoration: none;
+}
+
+.bola1 a p {
+  margin: 0 auto;
+}
+
+.bolinha1 {
+  float: right;
+  border-radius: 100px;
+  background-color: #191919;
+  height: 130px;
+  width: 130px;
+  margin-right: -550px;
+}
+
+.bolinha1 a {
+  text-decoration: none;
+}
+
+.bolinha1 a p {
+  font-size: 20px;
+  margin-top: 53px;
+  margin-left: 19px;
+  color: white;
+}
+
+.bolinha1 a p:hover {
+  transition: 0.1s;
+  font-size: 22px;
+  color: rgb(158, 255, 170);
+  margin-left: 15px;
+  margin-top: 52px;
+}
+
+.bolinha2 {
+  height: 140px;
+  width: 140px;
+  background-color: #004aad;
+  border-radius: 80px;
+  margin-left: 660px;
+  margin-top: -160px;
+  float: left;
+}
+
+.bolinha2 p {
+  margin-left: 32.5px;
+  margin-top: 51px;
+  color: white;
+  width: 25px;
+}
+
+.bolinha2 p span {
+  text-align: center;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.bolinha2:hover {
+  transition: 0.3s;
+  background-color: #a2c1ff;
+}
+
+.bolinha2 p:hover {
+  transition: 0.7s;
+  color: #000;
+}
+
+.ofertaPrincipalHome {
+  margin-left: 160px;
+  width: 350px;
+  text-align: center;
+  margin-top: 5px;
+  max-width: 250px;
+  font-size: 23px;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+
+/* principal HOME */
+.cleanFlutuar {
+  clear: both;
+}
+
+.promocoesHomeTitulo {
+  margin-top: -5px;
+  font-size: 25px;
+  margin-left: 37%;
+}
+
+.promocoesHomeTitulo span {
+  color: red;
+}
+
+.imgPrincipalHome {
+  position: absolute;
+  height: 520px;
+  margin-left: 210px;
+  z-index: 1;
+  margin-top: 30px;
+  max-width: fit-content;
+  max-height: fit-content;
+}
+
+label {
+  font-family: 'Poppins', sans-serif;
+  color: #5757ff;
+  font-size: 110px;
+  font-weight: 600;
+  top: 200px;
+  position: relative;
+}
+
+#labelHome1 {
+  display: flex;
+  top: 180px;
+  left: 80px;
+}
+
+#labelHome2 {
+  left: 360px;
+  top: 15px;
+  z-index: 2;
+}
+
+.hrConfiraPromocoes {
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+
+.hr2ConfiraPromocoes {
+  margin-top: 300px;
+}
+
+#containerPrincipalProdutosHome {
+  margin-top: 10px;
+  background-color: #f3f3f3;
+}
+
+.containerDosProdutosHome {
+  margin-left: 3px;
+  display: inline-block;
+}
+
+.containerDosProdutosHome img {
+  max-height: 250px;
+  margin-top: -60px;
+}
+
+.containerDosProdutosHome .caixa {
+  text-align: center;
+  padding: 4rem 2rem;
+  border-radius: .5rem;
+}
+
+.containerDosProdutosHome .caixa .comprarAgoraHome {
+  background-color: blue;
+  border-radius: 2rem;
+  padding-top: .6rem;
+  padding-bottom: .8rem;
+  padding-left: .3rem;
+  padding-right: .3rem;
+  color: white;
+  text-decoration: none;
+  margin-left: 5%;
+  width: 170px;
+  margin-top: -10px;
+  height: 20px;
+}
+
+.caixa .precosProdutosHome {
+  padding: .8rem;
+}
+
+.containerDosProdutosHome .caixa .comprarAgoraHome:hover {
+  transition: 0.3s;
+  background-color: rgb(0, 145, 0);
+}
+
+.containerDosProdutosHome .caixa a:hover {
+  outline: #000;
+}
+
+.containerDosProdutosHome .caixa h3 {
+  color: #000;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.containerDosProdutosHome .caixa p {
+  display: block;
+  margin-top: -10px;
+}
+
+.caixa {
+  margin: 5px;
+  background: linear-gradient(170deg, #00be1f 50%, white 50%);
+  height: 400px;
+  width: 335px;
+}
+
+/*para slider home*/
+.container {
+  width: 100%;
+  height: 510px;
+  position: relative;
+}
+
+.container .imagemBanner {
+  display: none;
+}
+
+.container .imagemBanner img {
+  width: 100%;
+  height: 510px;
+  object-fit: cover;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.container .button {
+  position: absolute;
+  top: 50%;
+  left: 2.5%;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 5;
+}
+
+.container .button a {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  user-select: none;
+}
+
+.container .button .prev {
+  border-radius: 0 5px 5px 0;
+}
+
+.container .button .next {
+  border-radius: 5px 0 0 5px;
+}
+
+.dots {
+  text-align: center;
+  position: absolute;
+  bottom: 8px;
+  left: 40%;
+  padding: 5px 10px;
+  height: 20px;
+  border-radius: 15px;
+
+}
+
+.dot {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #bbb;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.active,
+.dot:hover {
+  background: yellow;
+}
+
+
+/* -------------------PARA PRODUTOS------------------------ */
+#headerProdutos a {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-weight: 600;
+}
+
+#headerProdutos a:hover {
+  color: blue;
+}
+
+/*Para BARRA DE PESQUISA em produtos*/
+#pesquisaProduto input {
+  outline: none;
+  border: none;
+}
+
+#pesquisaProduto .barraDePesquisa {
+  width: 220px;
+  height: 25px;
+  border-radius: 80px;
+  background-color: #ffffff;
+  margin-left: 300px;
+  margin-top: -90px;
+  border: 1px solid #2cb5ff;
+  float: left;
+  font-family: 'Poppins', sans-serif;
+}
+
+#pesquisaProduto .barraDePesquisa::placeholder {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 8px;
+  font-size: 12px;
+  color: #a6a6a6;
+  padding: 5px;
+}
+
+#pesquisaProduto .barraDePesquisa:focus {
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid #42c7e8;
+  transition: 0.4s;
+  color: #222222;
+  padding: 2px;
+}
+
+#pesquisaProduto .submeterPesquisa {
+  float: left;
+  background-color: #2cb5ff;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  margin-top: -90px;
+  margin-left: 530px;
+  display: flex;
+  position: relative;
+}
+
+#pesquisaProduto .submeterPesquisa:hover {
+  background-color: #42c7e8;
+}
+
+#pesquisaProduto .submeterPesquisa img {
+  margin-left: -1px;
+  margin-top: 3.8px;
+}
+
+#pesquisaProduto .submeterPesquisa img:hover {
+  transition: 0.09s;
+  height: 15.5px;
+  margin-top: 3.5px;
+  margin-left: -1.5px;
+}
+
+.mainContainer-Produtos {
+  width: 1250px;
+  height: 700px;
+  margin-top: -8px;
+  /*elemento video e o container se adaptam ao tamanho desejado*/
+  position: relative;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+/*corpo de PRODUTOS*/
+
+.mainContainer-Produtos>.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.mainContainer-Produtos>.bg-video>video {
+  width: 100%;
+}
+
+.capaAstroneerJogo {
+  height: 250px;
+  margin-top: 170px;
+  margin-left: 50px;
+}
+
+.capaAstroneerJogo:hover {
+  transition: 0.4s;
+  height: 256px;
+  margin-left: 48.5px;
+}
+
+.nomeJogoCapa {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  margin-left: 70px;
+  margin-top: -10px;
+}
+
+.descricaoJogoCapa {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  margin-top: -25px;
+  margin-left: 75px;
+  max-width: 1120px;
+}
+
+
+/* para ESTILIZAR OS PRODUTOS  */
+.segundoContainerProdutos {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+#caixaPrincipalProdutos {
+  display: inline-flex;
+  margin-left: 5%;
+}
+
+hr {
+  margin-top: 200px;
+}
+
+hr:first-child {
+  margin-top: 60px;
+}
+
+.hr2 {
+  margin-top: -30px;
+}
+
+#destaquesProdutos {
+  color: rgb(65, 94, 255);
+  font-family: 'Poppins', sans-serif;
+  font-size: 35px;
+  margin-left: 43%;
+  margin-top: 0px;
+}
+
+#dispositivosTitulo {
+  color: rgb(65, 94, 255);
+  font-family: 'Poppins', sans-serif;
+  font-size: 35px;
+  margin-left: 43%;
+  margin-top: 0px;
+}
+
+.caixaProdutos {
+  height: 420px;
+  width: 350px;
+  border: .07rem solid black;
+  background: linear-gradient(165deg, rgba(0, 190, 31, 1) 50%, rgba(255, 255, 255, 1) 50%);
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  justify-content: center;
+  margin-left: 2rem;
+  margin-top: 50px;
+}
+
+.caixaProdutos:first-child {
+  margin-left: 0;
+}
+
+.caixaProdutos img {
+  margin-top: 3%;
+}
+
+.caixaProdutos h3 {
+  max-width: 230px;
+  margin-left: 20%;
+}
+
+.precosProdutos {
+  margin-top: -12px;
+}
+
+.comprarAgoraProdutos {
+  background-color: blue;
+  padding: .6rem;
+  border-radius: 21px;
+  color: white;
+  text-decoration: none;
+}
+
+.comprarAgoraProdutos:hover {
+  transition: 0.3s;
+  padding: .7rem;
+  border-radius: 8rem;
+  background-color: rgb(239, 43, 29);
+  color: rgb(255, 255, 255);
+}
+
+
+/*----------------------- para SOBRE NÓS ----------------------- */
+
+.sobreNos {
+  font-size: 40px;
+  margin-left: 850px;
+  margin-top: -450px;
+}
+
+.sobreNos span {
+  color: blue;
+}
+
+.textoSobreNos {
+  max-width: 300px;
+  margin-left: 800px;
+  text-align: justify;
+  font-size: 16px;
+}
+
+.formQuemSomos {
+  max-width: 600px;
+  margin-left: 150px;
+  margin-top: 450px;
+}
+
+.formQuemSomos h1 span {
+  color: rgb(0, 0, 0);
+}
+
+.formQuemSomos input {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 25px;
+  border: none;
+  border-bottom: 1px solid blue;
+  width: 560px;
+  margin-top: 20px;
+}
+
+.foformQuemSomosrmContato input::placeholder {
+  color: rgba(123, 123, 123, 0.483);
+}
+
+.formQuemSomos input:focus {
+  outline: none;
+}
+
+.formQuemSomos input:first-of-type {
+  margin-top: 30px;
+}
+
+#submitQmSomos {
+  width: 20%;
+  cursor: pointer;
+  margin-top: -20px;
+  border-radius: 20px;
+  color: white;
+  background-color: blue;
+}
+
+#submitQmSomos:hover {
+  color: rgb(0, 11, 67);
+}
+
+#feedbackQuemSomos {
+  margin-top: -100px;
+  background-color: #3762ff;
+  width: 1250px;
+  margin-left: -152px;
+  color: rgb(243, 243, 243);
+}
+
+#feedbackQuemSomos h1 {
+  max-width: 600px;
+  margin-left: 200px;
+}
+
+#feedbackQuemSomos span {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  letter-spacing: -8px;
+}
+
+.corQm1:hover {
+  color: rgb(230, 46, 46);
+}
+
+.corQm2:hover {
+  color: pink;
+}
+
+.corQm3:hover {
+  color: orange;
+}
+
+.corQm4:hover {
+  color: rgb(0, 229, 0);
+}
+
+.lilliaLOL {
+  margin-left: 640px;
+  margin-top: -555px;
+  height: 600px;
+}
+
+.raposaLOL {
+  height: 550px;
+  margin-top: 20px;
+}
+
+.raposaLOL:hover {
+  height: 555px;
+  transition: 0.5s;
+}

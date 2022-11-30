@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="js/script.js">
+    <script src="https://kit.fontawesome.com/fe18d2672e.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+
+<body>
+
+    <div id="mainContainer">
+        <header>
+            <a href="quemSomos.html"><img src="imagens/icones/logo.png" alt="" class="logo"></a>
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="produtos.html">PRODUTOS</a>
+                <a href="quemSomos.html">QUEM SOMOS</a>
+            </nav>
+            <a href=""><img class="iconeHome" src="imagens/icones/user.svg" alt=""></a>
+        </header>
+
+
+        <main>
+            <div class="bola1">
+                <a href="produtos.html">
+                    <img class="cadeiraAVenda" src="imagens/imgs/produtos/cadeiraGamer.png" alt="">
+                    <p class="ofertaPrincipalHome">CADEIRA GAMER LUX CARAMELO</p>
+                </a>
+            </div>
+
+            <div class="bolinha1"><a href="">
+                    <p>R$449.<small>99</small> </p>
+                </a></div>
+            <a href="">
+                <div class="bolinha2">
+                    <p>COMPRE <span>AQUI</span></p>
+                </div>
+            </a>
+
+            
+            <a href="produtos.html"><img class="imgPrincipalHome" src="imagens/imgs/produtos/monoLittleNightmare1.png"
+                    onmouseout="this.src='imagens/imgs/produtos/monoLittleNightmare1.png';"
+                    onmouseover="this.src='imagens/imgs/produtos/monoLittleNightmare2.png';" /></a>
+            <label id="labelHome1">KRÖ</label>
+            <label id="labelHome2">NUS</label>
+
+            <!-- para o slider de promoções -->
+            <div class="cleanFlutuar"></div>
+
+            <hr class="hr2ConfiraPromocoes">
+            <h3 class="promocoesHomeTitulo">Confira nossas <span>promoções</span></h3>
+            <hr class="hrConfiraPromocoes">
+
+            <div class="container">
+                <div class="imagemBanner">
+                    <img src="imagens/imgs/banner/banner1.png" alt="">
+                </div>
+                <div class="imagemBanner">
+                    <img src="imagens/imgs/banner/banner2.png" alt="">
+                </div>
+                <div class="imagemBanner">
+                    <img src="imagens/imgs/banner/banner3.png" alt="">
+                </div>
+                <div class="imagemBanner">
+                    <img src="imagens/imgs/banner/banner5.png" alt="">
+                </div>
+                <div class="imagemBanner">
+                    <img src="imagens/imgs/banner/banner4.png" alt="">
+                </div>
+
+                <div class="button">
+                    <a onclick="nextimg(-1)" class="prev">&#10094;</a>
+                    <a onclick="nextimg(1)" class="next">&#10095;</a>
+                </div>
+
+                <div class="dots">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+            </div>
+
+
+            <!-- PARTE DE PRODUTOS DA HOME COMEÇA -->
+            <!-- fileira 1 home -->
+
+            <div id="caixaPrincipalProdutos">
+                <div class="caixaProdutos">
+                    <a href="produtos.html">
+                        <div class="cleanFlutuar"></div>
+                        <img width="175px" src="imagens/imgs/produtos/spiderHomi-game.png" alt="">
+                    </a>
+                    <h3>Marvel's Spider-Man Remasterizado (Ps4)</h3>
+                    <p class="precosProdutos">R$84<small>.92</small></p>
+                    <a class="comprarAgoraProdutos" href="">COMPRAR AGORA</a>
+                </div>
+
+                <div class="caixaProdutos">
+                    <a href="produtos.html">
+                        <div class="cleanFlutuar"></div>
+                        <img width="180px" src="imagens/imgs/produtos/dokiDokiPS4.webp" alt="">
+                    </a>
+                    <h3>Doki Doki Literature Club! (Ps4)</h3>
+                    <p class="precosProdutos">R$250<small>.99</small></p>
+                    <a class="comprarAgoraProdutos" href="">COMPRAR AGORA</a>
+                </div>
+
+                <div class="caixaProdutos">
+                    <a href="produtos.html">
+                        <div class="cleanFlutuar"></div>
+                        <img width="150px" src="imagens/imgs/produtos/callOfDutyJogo2.png" alt="">
+                    </a>
+                    <h3>Call Of Duty - Ghosts (Xbox 360)</h3>
+                    <p class="precosProdutos">R$90<small>.68</small></p>
+                    <a class="comprarAgoraProdutos" href="">COMPRAR AGORA</a>
+                </div>
+            </div>
+
+            <!-- fileira dois -->
+            <div id="caixaPrincipalProdutos">
+                <div class="caixaProdutos">
+                    <a href="produtos.html">
+                        <div class="cleanFlutuar"></div>
+                        <img width="220px" src="imagens/imgs/produtos/computadorUltra1.png" alt="">
+                    </a>
+                    <h3>All-in-one Ultra Celeron (120GB 4GB)</h3>
+                    <p class="precosProdutos">R$2.499<small>.99</small></p>
+                    <a class="comprarAgoraProdutos" href="">COMPRAR AGORA</a>
+                </div>
+
+                <div class="caixaProdutos">
+                    <a href="produtos.html">
+                        <div class="cleanFlutuar"></div>
+                        <img width="225px" src="imagens/imgs/produtos/smartwatchVienaPreta.webp" alt="">
+                    </a>
+                    <h3>Smartwatch Viena Multilaser Branco</h3>
+                    <p class="precosProdutos">R$129<small>.99</small></p>
+                    <a class="comprarAgoraProdutos" href="">COMPRAR AGORA</a>
+                </div>
+                <div class="caixaProdutos">
+                    <a href="produtos.html">
+                        <div class="cleanFlutuar"></div>
+                        <img width="185px" src="imagens/imgs/produtos/iphone13.webp" alt="">
+                    </a>
+                    <h3>Apple Iphone 13 Pro Max (128GB) Dourado</h3>
+                    <p class="precosProdutos">R$8.999<small>.50</small></p>
+                    <a class="comprarAgoraProdutos" href="">COMPRAR AGORA</a>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="redesSociais">
+                <a href="#"><img src="imagens/icones/facebookIcone.png" alt=""></a>
+                <a href="#"><img src="imagens/icones/linkedInIcone.png" alt=""></a>
+                <a href="#"><img src="imagens/icones/instagramIcone.png" alt=""></a><a href="#"><img
+                        src="imagens/icones/twitterIcone.png" alt=""></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="index.html">Home</a></li>
+                <li class="list-inline-item"><a href="produtos.html">Produtos</a></li>
+                <li class="list-inline-item"><a href="quemSomos.html">Quem Somos</a></li>
+            </ul>
+
+            <img height="40px" class="imgLocalizacao" src="imagens/icones/icons8-per-metro-virtual-unscreen.gif"
+                    alt="">
+                <div class="cleanFlutuar"></div>
+                <a class="localizacaoFooter" target="_blank" href="https://goo.gl/maps/XZLp85QKipoLcNvNA">Rua da
+                    Alegria, 303 - Avenida do Amor - SP, 12345-123</a>
+            <p class="direitosReservados">KRONUS © 2022</p>
+        </footer>
+    </div>
+
+    <!-- para script -->
+    <script>
+        var imageno = 1;
+        displayimg(imageno);
+
+        function nextimg(n) {
+            displayimg(imageno += n)
+        }
+
+        function currentSlide(n) {
+            displayimg(imageno = n)
+        }
+
+        function displayimg(n) {
+            var i;
+            var imagemBanner = document.getElementsByClassName("imagemBanner");
+            var dots = document.getElementsByClassName("dot");
+
+            if (n > imagemBanner.length) {
+                imageno = 1;
+            }
+
+            if (n < 1) {
+                imageno = imagemBanner.length;
+            }
+
+            for (i = 0; i < imagemBanner.length; i++) {
+                imagemBanner[i].style.display = "none";
+            }
+
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+
+            imagemBanner[imageno - 1].style.display = "block";
+            dots[imageno - 1].className += " active";
+
+            function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("imagemBanner");
+                let dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
